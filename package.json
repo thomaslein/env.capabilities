@@ -1,8 +1,8 @@
 {
 	"name": "env.capabilities",
 	"description": "Feature detection",
-	"version": "0.0.1",
-	"author": "popeindustries <alex@pope-industries.com>",
+	"version": "0.0.2",
+	"author": "Thomas Lein <thomaslein@gmail.com>",
 	"dependencies": {
 	},
 	"main": "index.js",
