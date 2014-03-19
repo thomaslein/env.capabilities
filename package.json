@@ -3,8 +3,6 @@
 	"description": "Feature detection",
 	"version": "0.0.2",
 	"author": "Thomas Lein <thomaslein@gmail.com>",
-	"dependencies": {
-	},
 	"main": "index.js",
 	"repository": {
 		"type": "git",
