@@ -72,3 +72,15 @@ exports.hasTouch = function() {
 	exports.hasTouch = function() { return hasTouch; };
 	return hasTouch;
 };
+
+/**
+ * Does platform support inline svg
+ * @returns {Boolean}
+ */
+exports.hasSVG = function(){
+	var test = document.createElement('div');
+	test.innerHTML = '<svg/>';
+	var hasSVG = (test.firstChild && test.firstChild.namespaceURI) == 'http://www.w3.org/2000/svg';
+	exports.hasSVG = function(){ return hasSVG; };
+	return hasSVG;
+}
